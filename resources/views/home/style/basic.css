@@ -1,0 +1,56 @@
+nav .collapse ul.navbar-nav li.nav-item a.nav-link{
+    font-size: 18px;
+    color: #28a745;
+}
+nav span.open{
+    height: 60px;
+    width: 82px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    background: url("../../../images/open.png") center no-repeat;
+    color: #fff;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+}
+nav span.closed{
+    height: 60px;
+    width: 82px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    background: url("../../../images/closed.png") center no-repeat;
+    color: #fff;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+}
+nav button.navbar-toggler{
+    border-color: rgb(33,136,56);
+
+}
+nav button.navbar-toggler span.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(33,136,56, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+nav .collapse form input.span2{
+    border: 1px solid #28a745;
+}
+
+/**button**/
+.btn{
+    cursor: pointer;
+}
+
+
+
+.page_list ul.pagination li{
+
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid #dddddd;
+    margin-left: 3px;
+    margin-right: 3px;
+}

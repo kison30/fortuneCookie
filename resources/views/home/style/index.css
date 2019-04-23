@@ -1,0 +1,33 @@
+/**left**/
+.container-fluid .row .col-md-2 .leftnavpin ul.list-group li.list-group-item{
+    padding: .45rem 1.25rem;
+    font-size: 14px;
+}
+
+/*middle*/
+.container-fluid .row .col-md-6 .alert{
+    border-radius: 0px;
+    padding: .50rem 1.25rem;
+}
+
+
+.container-fluid .row .col-md-6 .media{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid green;
+}
+.container-fluid .row .col-md-6 .media div span{
+    padding: 5px;
+    margin-right: 10px;
+}
+.container-fluid .row .col-md-6 .media div a i{
+    color: #ffffff;
+}
+/*cart*/
+.container-fluid .row .col-md-4 .rightcartpin ul.list-group{
+    margin-bottom: 20px;
+}
+
+.container-fluid .row .col-md-4 .rightcartpin ul.list-group li.list-group-item{
+    padding: .45rem 1.25rem;
+}
